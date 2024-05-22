@@ -27,6 +27,17 @@ body {
     padding: 15px 0;
     color: #ffffff;
     font-family: Arial;
+    position: relative;
+}
+
+.register .register-header .triangulo {
+    width: 0;
+    height: 0;
+    border-top: 18px solid blueviolet;
+    border-right: 9px solid transparent;
+    border-left: 9px solid transparent;
+    position: absolute;
+    top: 86px;
 }
 
 .register .register-header .logo {
@@ -85,6 +96,11 @@ body {
     margin-bottom: 10px;
     background-color: blueviolet;
     color: white;
+    cursor: pointer;
+}
+
+.register .register-body .register-button:hover {
+    background-color: #9e4aec;
 }
 
 .register .register-body .register-member {

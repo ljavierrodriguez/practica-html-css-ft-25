@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #19a49b;
+}
+
+.register {
+    width: 350px;
+    height: auto;
+    background-color: #ffffff;
+    margin: 10% auto;
+}
+
+.register .register-header {
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    color: #ffffff;
+    font-family: Arial;
+}
+
+.register .register-header .logo {
+    border-radius: 100%;
+    border: 2px solid white;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.register .register-body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.register .register-body .register-input {
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+    background-color: #cccccc;
+}
+
+.register .register-body .register-input .icon {
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register .register-body .register-input input {
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    padding-left: 20px;
+}
+
+.register .register-body .terms {
+    margin: 15px 0;
+    font-size: 12px;
+}
+.register .register-body .terms a {
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.register .register-body .register-button {
+    border: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.register .register-body .register-member {
+    font-size: 12px;
+    text-align: center;
+}
+
+.register .register-body .register-member a {
+    font-size: 1em;
+    text-decoration: none;
+}
